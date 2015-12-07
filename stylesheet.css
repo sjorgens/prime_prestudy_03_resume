@@ -1,0 +1,145 @@
+html, body, h1, h2, h3, p, ul, ol, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+button {
+	visibility: visible;
+}
+
+body {
+	font-family: Georgia, Times, serif;
+	color: #efefef;
+	background-color: #efefef;
+	padding: 20px 20px 20px 20px;
+	visibility: hidden;
+}
+
+.bw1-analyst {
+	display: none;
+}
+
+h2, h3, .date, .header-block {
+	color: black;
+	font-weight: bold;
+}
+
+#contactinfo p {
+	color: #efefef;
+}
+
+h1 {
+	margin: 10px 0 15px 0;
+	text-align: center;
+}
+
+h2 {
+	margin: 10px 0 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin: 15px 0 15px 0;
+	font-style: italic;
+}
+
+ul {
+	margin: 0 0 5px 0;
+	padding: 0 0 0 50px;
+}
+
+#container {
+	min-width: 960px;
+	max-width: 960px;
+	margin: 0px auto 0px auto;
+	padding: 30px;
+	background-image: url("images/wood01.jpg");
+	background-color: #0d492c;
+	border-width: 20px;
+	border-radius: 20px;
+	border-style: double;
+}
+
+#contactinfo {
+	text-align: center;
+	font-size: 12px;
+}
+
+#profile-content {
+	font-style: italic;
+}
+
+#profile, #keystrengths, #experience, #education {
+	background-color: #b8860b;
+	padding: 15px;
+	margin: 15px 15px 15px 15px;
+	border-width: 5px;
+	border-radius: 25px;
+	border-color: black;
+	border-style: double;
+}
+
+#bailiwick1, #cargill, #bailiwick2, #intercept {
+	margin: 0 0 10px 0;
+}
+
+.list-strengths1, .list-strengths2, .list-strengths3 {
+	font-size: 12px;
+	width: 295px;
+	float: left;
+}
+
+.expHeader-date, .date {
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+}
+
+.page {
+	text-align: center;
+}
+
+div {
+	overflow: auto;
+}
+
+a {
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #9d1309;
+}
+
+a:hover {
+	color: pink;
+	text-decoration: underline;
+}
+
+p {
+	margin: 5px 0 5px 0;
+	font-size: 14px;
+	color: black;
+}
+
+.address, .phone, .email {
+	margin: 0 0 0 0;
+}
+
+li {
+	font-size: 14px;
+	color: #333333;
+}
+
+li:nth-child(even) {
+	color: #555555;
+}
